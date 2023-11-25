@@ -42,7 +42,7 @@ export class MarcadoresComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     this.mapa = new mapboxgl.Map({
       container: this.divMapa.nativeElement,
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/dark-v11',
       center: this.center,
       zoom: this.zoomLevel,
     });

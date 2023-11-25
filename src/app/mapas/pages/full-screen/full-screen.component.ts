@@ -19,7 +19,7 @@ export class FullScreenComponent implements OnInit {
   ngOnInit(): void {
     var map = new mapboxgl.Map({
       container: 'mapa',
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/dark-v11',
       center: [-99.16783609940862, 19.427514936366155], //Angel de la independencia
       zoom: 14,
     });

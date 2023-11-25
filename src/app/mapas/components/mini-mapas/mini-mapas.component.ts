@@ -27,7 +27,7 @@ export class MiniMapasComponent implements AfterViewInit {
   ngAfterViewInit(): void {
     const mapa = new mapboxgl.Map({
       container: this.divMapa.nativeElement,
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/dark-v11',
       center: this.lngLat, //Angel de la independencia
       zoom: 14,
       interactive: false,
